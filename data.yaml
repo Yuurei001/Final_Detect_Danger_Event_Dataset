@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Nguy hiểm']
+
+roboflow:
+  workspace: aj-garcia-736tc
+  project: indoor-fire-detection-with-yolov7
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aj-garcia-736tc/indoor-fire-detection-with-yolov7/dataset/10
